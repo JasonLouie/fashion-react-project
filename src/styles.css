@@ -1,0 +1,118 @@
+html {
+    border-left: 5px solid lightgray;
+}
+
+body {
+    font-family: sans-serif;
+    min-height: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    font-weight: normal;
+}
+
+#title {
+    color: tomato;
+}
+
+header, main, footer {
+    padding: 1rem 2rem;
+}
+
+.heading {
+    font-size: 60px;
+}
+
+.subheading {
+    font-size: 35px;
+}
+
+header a {
+    font-size: 25px;
+    color: lightgray !important;
+    text-decoration: underline;
+}
+
+ul.navbar {
+    padding: 0;
+    justify-content: space-between;
+    margin: 40px 0
+}
+
+li.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Article styling */
+.date {
+    margin-bottom: 6px;
+    color: gray;
+}
+
+.text::first-letter {
+    margin-right: 0.5rem;
+    font-size: 4rem;
+    color: gray;
+    float: left;
+    line-height: 1;
+}
+
+.text {
+    margin: 1.5em 0 1em 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+article {
+    border-bottom: 1px solid #c5c5c5;
+    margin-bottom: 4rem;
+    padding-bottom: 2rem;
+}
+
+article:last-child {
+    margin-bottom: 0;
+}
+
+article > h1 {
+    margin-bottom: 14px;
+}
+
+.more {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.read-more {
+    color: tomato !important;
+    text-align: right;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+
+/* Footer styling */
+footer a {
+    font-size: 20px;
+    color: tomato !important;
+    text-decoration: none;
+}
+
+footer h3 {
+    color: lightgray;
+}
